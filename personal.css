@@ -9,7 +9,7 @@
     position: absolute;
     background-color: rgb(42, 42, 52);
     /* width: 434px; */
-    height: 106vh;
+    height: 100vw;
     transition: transform 0.3s ease-in;
 
 }
@@ -29,7 +29,7 @@
 .main{
     background-color: rgb(116, 105, 105);
     /* background-color: yellow; */
-    width: 90vw;
+    width: 100vw;
 }
 .container{
     display: flex;
@@ -97,6 +97,8 @@
     padding: 0 34px;
     /* padding-top: 144px; */
     margin: 0 88px;
+     width: 100vh;
+    height: 100vh;
 }
 .contactform h1{
     padding: 12px 0;
