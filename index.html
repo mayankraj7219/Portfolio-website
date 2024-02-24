@@ -1,0 +1,215 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style5.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header" onclick="scrollToSection('header')"></a>Home</li>
+                    <li><a href="#about" onclick="scrollToSection('about')"></a>About</li>
+                    <li><a href="#services" onclick="scrollToSection('services')"></a>Services</li>
+                    <li><a href="#portfolio" onclick="scrollToSection('portfolio')"></a>Portfolio</li>
+                    <li><a href="#contact" onclick="scrollToSection('contact')"></a>Contact</li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Network Engineer</p>
+                <h1>Hi, I'm <span>Mayank Raj</span> <br>From India</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="my1.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h2>Hello there! 👋</h2>
+
+                    <p>I'm Mayank Raj, a passionate and versatile professional in the realms of web development and network engineering. Currently navigating the digital landscapes as a Web Developer and Network Engineer, I find immense joy in crafting seamless web experiences and optimizing network infrastructures.</p>
+                    
+
+                    <div class="tab-tltles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><Span>Network Security</Span><br>Packet Troubleshooting</li>
+                            <li><Span>Web Deveplopment</Span><br>Web and App Designing</li>
+                            <li><Span>Computer Programming</Span><br>C, C++, Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><Span>2023-Currently</Span><br>Networking & its Security</li>
+                            <li><Span>2022-2023</Span><br>Web Development</li>
+                            <li><Span>2021-2022</Span><br>Computer Programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><Span>B.Tech</Span><br>Computer Science</li>
+                            <li><Span>Intermediate</Span><br>Physics, Chemisty & Math</li>
+                            <li><Span>Tenth</Span><br>Science</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>With a blend of HTML, CSS, and JavaScript expertise, I craft immersive web experiences that captivate audiences and drive results. Whether it's building sleek user interfaces, ensuring seamless responsiveness, or enhancing functionality through interactivity, I am committed to delivering excellence in web development. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>Computer Programming</h2>
+                    <p>Throughout my programming journey, I've encountered diverse challenges and opportunities, each contributing to my growth as a developer. Whether it's optimizing algorithms for performance in C, designing elegant class hierarchies in C++, or scripting automation workflows in Python, every line of code has been a testament to my passion for problem-solving and innovation.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Networking</h2>
+                    <p>With a comprehensive understanding of network and security protocols, I am committed to fortifying infrastructure defenses and optimizing network performance. Whether it's configuring routing protocols for optimal efficiency, enforcing access controls to safeguard against threats, or implementing redundancy mechanisms for high availability, I leverage my expertise to deliver robust and resilient network solutions.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------Portfolio--------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="hospital.jpg" alt="">
+                    <div class="layer">
+                        <h3>Hospital Networking Model</h3>
+                        <p>Implementing a robust hospital networking model Leveraging OSPF for dynamic routing ensures seamless communication between departments, enhancing overall efficiency</p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="school.jpg" alt="">
+                    <div class="layer">
+                        <h3>School Networking Model</h3>
+                        <p>Implemented a robust model integrating RIPv2, VLAN, and server rooms across two buildings: the main campus and a branch 20 km away.</p>
+                        <a href="https://www.linkedin.com/posts/mayank-raj-ab618a241_networking-ripv2-vlan-activity-7158434011533488128-u2ro?utm_source=share&utm_medium=member_desktop"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Gaya-College-of-Engineering-Gaya1.jpg" alt="">
+                    <div class="layer">
+                        <h3>College Website Demo</h3>
+                        <p>Our goal with this new website is to provide our students, faculty, staff, alumni, and visitors with an easier way to learn about our college, its programs, events, and resources.</p>
+                        <a href="https://mayankraj7219.github.io/Prodigy_Infotch_wd_1/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!-- -------------- contact form-------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>mayankra2018@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9693339324</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/mayankraj240628/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/mayank-raj-ab618a241/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://twitter.com/MayankR59723119"><i class="fab fa-twitter"></i></a>
+                    <a href="a"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1tmZ_u_UOddCU0YWUhxpj-Rcx6n8IaB6A/view?usp=drive_link" class="btn btn2">Download_CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ Mayank Raj, Sitamarhi -843317</p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbx3sQ3jmeF9rdvFP_GCXs2Bm05sQK3_fXfuGIAus4pKKgfiw7HPiOSga0dFdy4hzyY/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {msg.innerHTML = "Message Sent successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script>
+        function scrollToSection(sectionid){
+            var targetDiv = document.getElementById(sectionid);
+            if(targetDiv){
+            targetDiv.scrollIntoView({ behavior: "smooth"});
+            }
+        }
+      </script>
+</body>
+</html>
